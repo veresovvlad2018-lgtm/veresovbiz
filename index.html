@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>$1 000 000 в год с 19 лайками</title>
+<meta name="description" content="Разбор Хормози и моя воронка от 1 500 ₽ до $11 000 в месяц. В конце практикум, где ты найдёшь камень, которого не хватает тебе">
+<meta property="og:title" content="$1 000 000 в год с 19 лайками на пост и 5 800 подписчиками">
+<meta property="og:description" content="Разбор Хормози и моя воронка от 1 500 ₽ до $11 000 в месяц. В конце практикум, где ты найдёшь камень, которого не хватает тебе">
+<meta property="og:image" content="https://veresovbiz.ru/img/hormozi.jpg">
+<meta property="og:url" content="https://veresovbiz.ru/">
+<meta name="robots" content="noindex">
+<style>@font-face{font-family:"Unbounded";src:url("fonts/Unbounded-Variable.ttf") format("truetype");font-weight:200 900;font-display:swap}
+@font-face{font-family:"Manrope";src:url("fonts/Manrope-Variable.ttf") format("truetype");font-weight:200 800;font-display:swap}
+@font-face{font-family:"Neucha";src:url("fonts/Neucha.woff") format("woff");font-display:swap}
+
+:root{
+  /* Бумага канала VERESOV. Узкая колонка, много воздуха, короткие абзацы, как в разборах Мариса */
+  --paper:#F6EEE2; --card:#FFFAF3; --ink:#1C1712; --mute:#8C7F6C; --line:#E2D4BE;
+  --orange:#E5622A; --peach:#FBD3B4; --red:#C2361D;
+  --head:"Unbounded","Arial Black",sans-serif; --text:"Manrope",system-ui,-apple-system,sans-serif; --hand:"Neucha","Comic Sans MS",cursive;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;-webkit-print-color-adjust:exact;print-color-adjust:exact;background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:19px;line-height:1.72;font-weight:500}
+.wrap{max-width:620px;margin:0 auto;padding-block:40px 90px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+p{margin:0 0 22px}
+b,strong{font-weight:800}
+a{color:inherit}
+.muted{color:var(--mute);font-weight:600}
+h1,h2,h3{font-family:var(--head);letter-spacing:-.01em;line-height:1.16;margin:0;text-wrap:balance}
+h1{font-size:clamp(29px,7.6vw,42px);font-weight:800;margin:28px 0 18px}
+h2{font-size:clamp(24px,6vw,31px);font-weight:700;margin:16px 0 26px}
+h3{font-size:clamp(19px,4.8vw,22px);font-weight:700;margin:52px 0 18px}
+.big{font-family:var(--head);font-weight:700;font-size:clamp(20px,5.2vw,24px);line-height:1.3;margin:30px 0}
+.ticker{font-family:var(--hand);font-size:24px;line-height:1.45;color:var(--orange);padding-left:4px}
+.mk{background:linear-gradient(transparent 14%,var(--peach) 14%,var(--peach) 90%,transparent 90%);padding:0 4px;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+h1 .mk,h2 .mk{padding:0 6px}
+.ul{text-decoration:underline;text-decoration-color:var(--orange);text-decoration-thickness:3px;text-underline-offset:4px}
+.author{display:flex;align-items:center;gap:12px;font-weight:700;font-size:15px;line-height:1.3}
+.ava{width:46px;height:46px;border-radius:50%;object-fit:cover;border:2px solid var(--ink)}
+.sub{color:var(--mute);font-size:19px;line-height:1.55;margin-bottom:20px}
+.read{border-top:2px solid var(--ink);padding-top:14px;color:var(--orange);font-weight:800;font-size:15px;margin-bottom:40px}
+.label{display:flex;width:fit-content;align-items:center;gap:10px;margin-top:96px;background:var(--ink);color:var(--paper);font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:6px 12px;border-radius:4px}
+.label i{font-style:normal;color:var(--peach)}
+.quote{border-left:5px solid var(--orange);padding:6px 0 6px 20px;margin:40px 0;font-family:var(--head);font-weight:600;font-size:20px;line-height:1.42}
+ul.list,ol.list{padding:0;margin:10px 0 26px;list-style:none;counter-reset:n}
+ul.list li,ol.list li{position:relative;padding-left:32px;margin-bottom:14px}
+ul.list li:before{content:"";position:absolute;left:6px;top:12px;width:9px;height:9px;border-radius:50%;background:var(--orange)}
+ol.list li{counter-increment:n}
+ol.list li:before{content:counter(n);position:absolute;left:0;top:0;font-family:var(--head);font-weight:800;color:var(--orange)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:32px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px}
+.stat b{display:block;font-family:var(--head);font-size:clamp(15px,4.2vw,22px);font-weight:800;line-height:1.1;white-space:nowrap}
+.stat span{font-size:13px;color:var(--mute);line-height:1.35;display:block;margin-top:6px}
+figure{margin:34px auto;max-width:560px}
+figure img{width:100%;display:block;border-radius:10px;border:2px solid var(--ink)}
+figcaption{font-family:var(--hand);font-size:19px;color:var(--mute);margin-top:8px;text-align:center}
+a.fig{display:block;text-decoration:none}
+.chat{margin:36px 0 18px}
+.bubble{display:inline-block;background:var(--card);border:1px solid var(--line);border-radius:18px 18px 18px 4px;padding:10px 16px;font-weight:700;max-width:92%;line-height:1.5}
+.bubble small{display:block;font-size:12px;color:var(--mute);font-weight:700;margin-bottom:2px}
+.diagram{margin:34px 0;background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 10px 8px}
+.diagram.stones{padding:16px 10px 4px;background:var(--card)}
+.paths{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 24px}
+.paths>div{min-width:0;border:1px solid rgba(246,238,226,.25);border-radius:14px;padding:14px;font-size:15px;line-height:1.5}
+.paths>div.hot{border:2px solid var(--orange)}
+.paths small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;opacity:.6}
+.paths b{display:block;font-family:var(--hand);font-weight:400;font-size:24px;color:var(--peach);margin:2px 0 6px}
+.diagram.yours{border:2px dashed var(--ink)}
+.diagram svg{width:100%;height:auto;display:block}
+.task{background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:20px 22px;margin:36px 0}
+.task .t{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
+.task .t b{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--orange)}
+.aura{font-family:var(--hand);font-size:18px;background:#2FA866;color:#fff;border-radius:20px;padding:2px 12px;white-space:nowrap}
+.task ol.list{margin:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:34px 0}
+.two>div{min-width:0;border-radius:14px;padding:16px;border:1px solid var(--line);background:var(--card);font-size:16px;line-height:1.55}
+.two>div.dark{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.two small{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;margin-bottom:6px;opacity:.7}
+.two b{display:block;font-family:var(--head);font-size:16px;margin-bottom:6px}
+.two ul{margin:6px 0 0;padding-left:18px;font-size:15px}
+.two li{margin-bottom:4px}
+.fill{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;font-size:19px;line-height:2.2;margin-bottom:20px}
+.fill u{display:inline-block;min-width:110px;border-bottom:2px solid var(--orange);text-decoration:none}
+.cta{display:flex;gap:16px;align-items:center;background:var(--card);border:2px solid var(--orange);border-radius:14px;padding:18px;margin:40px 0}
+.cta p{margin:0;font-size:16px;line-height:1.55;min-width:0}
+.cta a{flex:none;background:var(--orange);color:#fff;text-decoration:none;font-weight:800;font-size:14px;padding:11px 15px;border-radius:10px;font-family:var(--head)}
+.end{background:var(--ink);color:var(--paper);border-radius:18px;padding:30px 24px;margin-top:48px}
+.end p{font-size:17px}
+.end .who{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.end .who img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--peach)}
+.end .k{font-family:var(--hand);font-size:24px;color:var(--peach);line-height:1.2}
+.end h2{color:var(--paper);margin-top:16px}
+.end ul.list li:before{background:var(--orange)}
+.end .note{opacity:.7;font-size:15px}
+.btn{display:inline-block;margin-top:6px;background:var(--orange);color:#fff;font-weight:800;text-decoration:none;padding:16px 24px;border-radius:12px;font-family:var(--head);font-size:16px}
+.sign{margin:22px 0 0;font-size:13px;opacity:.55}
+a:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+@media (max-width:560px){
+  body{font-size:18px}
+  .two,.paths{grid-template-columns:1fr}.cta{flex-direction:column;align-items:flex-start}
+}
+@page{size:480px 860px;margin:0}
+@media print{.wrap{padding:28px 22px 30px}.label{margin-top:40px}.pb{break-before:page;margin-top:0}
+  h3{margin-top:34px}.big{margin:20px 0}.quote{margin:26px 0}
+  .task,figure,.two,.paths,.cta,.diagram,.chat,.quote,.stats,.fill,.ticker{break-inside:avoid}h3,.label,h2{break-after:avoid}h1,h2,h3{break-inside:avoid}.end{padding:24px 22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="author"><img class="ava" src="img/vlad.jpg" alt="Влад Вересов"><span>Влад Вересов<br><span class="muted">@veresovbiz</span></span></div>
+
+<h1><span class="mk">$1 000 000 в год</span> с 19 лайками на пост и 5 800 подписчиками</h1>
+<p class="sub">Разбор Хормози, моя воронка от 1 500 ₽ до $11 000 в месяц и практикум, после которого ты увидишь, где твой блог теряет деньги</p>
+<p class="read">Читается за 15 минут. Дочитаешь, и на свой блог посмотришь по-другому</p>
+
+<p class="big">Миллион долларов в год.</p>
+<p>С аккаунта, который ты бы пролистал не глядя.</p>
+<p>Без рекламы. Без продюсера. Без рилсов под трендовую музыку.</p>
+<p>Знаю, звучит как очередная сказка из сторис инфоцыган...</p>
+<p>Я бы тоже не поверил. Если бы не одна деталь.</p>
+<p>Это не я придумал. Это Алекс Хормози сел ужинать с владелицей этого бизнеса, открыл её Instagram и, по его же словам, <span class="mk">потерял дар речи</span>.</p>
+<p>Человек, у которого охват 20 миллионов в месяц, сидел и не понимал, как это вообще работает.</p>
+<p>Я тоже долго не понимал. Пока не разложил её бизнес по ступенькам и не положил рядом свой.</p>
+<p>И тут меня накрыло.</p>
+<p>Полтора года назад у меня был канал на 140 подписчиков. Сейчас я делаю до $11 000 в месяц с того же маленького блога. И схема у нас с ней одна и та же.</p>
+<p>Только у неё собраны все пять камней. А у меня одного не было полтора года.</p>
+<p>Какого, узнаешь в середине. И скорее всего, <span class="ul">у тебя его тоже нет</span>.</p>
+
+<h3>Сначала договоримся</h3>
+<p>Это не пост на две минуты, который пролистываешь между делом.</p>
+<p>Тут вся схема целиком. Её разбор, моя история с цифрами и практикум, где ты нарисуешь свою воронку и найдёшь место, где у тебя течёт.</p>
+<p>Цель статьи дать тебе пользу. Не потому что я такой добрый малый.</p>
+<p>А потому что если тебе зайдёт, ты мне поверишь. А потом, может, и поработаем вместе. Честно)</p>
+<p>Так что налей чай, поставь телефон на беззвучный, ну или хотя бы закрой рилсы.</p>
+
+<h3>Кому это</h3>
+<p>Тебе, если блог уже есть. Ролики выходят, просмотры какие-то есть, лайки капают. А в личку пишут «спасибо, полезно». И всё.</p>
+<p>Тебе, если блога ещё нет. Но есть навык, за который уже платят. Ты монтажёр, дизайнер, юрист, тренер, продюсер, неважно. И тебе кажется, что сначала надо набрать 10 000 подписчиков, а уже потом зарабатывать.</p>
+<p class="big">Это миф.</p>
+<p>И сейчас я его разберу на двух историях. Одна про диетолога, которую разобрал Хормози. Вторая моя.</p>
+
+<div class="stats">
+  <div class="stat"><b>5 800</b><span>подписчиков у диетолога</span></div>
+  <div class="stat"><b>140</b><span>подписчиков у меня полтора года назад и уже от $1 000 в месяц</span></div>
+  <div class="stat"><b>$11 000</b><span>мой доход в пике сейчас, с того же маленького блога</span></div>
+</div>
+
+<h3>Что внутри</h3>
+<ul class="list">
+<li>Ужин, на котором Хормози потерял дар речи</li>
+<li>Её воронка по ступенькам. От поста с 19 лайками до программы за $4 000</li>
+<li>Как я слил последние $3 000 в поезде и начал заново с 1 500 ₽</li>
+<li>Грабли, на которые наступили и я, и Хормози</li>
+<li>Её воронка рядом с моей и пять камней, без которых ничего не работает</li>
+<li>Три типа лид-магнитов и пять камней Таки Мура, который делает $1,7 млн в месяц</li>
+<li>Что делать, если блога ещё нет</li>
+<li>Практикум. Рисуешь свою воронку и находишь камень, которого не хватает тебе</li>
+</ul>
+
+<p>Все схемы я нарисовал, чтобы ты мог сразу повторить у себя. А в конце бонус, как собрать это с нуля, если блога пока нет.</p>
+<p>Газуем.</p>
+
+<span class="label">Часть 01 · <i>Кейс</i></span>
+<h2>Ужин, после которого Хормози <span class="mk">потерял дар речи</span></h2>
+
+<figure><a class="fig" href="https://youtu.be/0S5xsICW8qg"><img src="img/hormozi.jpg" alt="Ролик Хормози про диетолога"></a><figcaption>тот самый разбор Хормози, ролик на YouTube</figcaption></figure>
+
+<p>Значит, сидит Хормози на ужине. Напротив владелица компании, с которой они только что разбирали бизнес.</p>
+<p>Ну и он, как любой нормальный человек, лезет смотреть её Instagram. Он уверен, что сейчас увидит большой аккаунт. Это же её главный источник клиентов.</p>
+<p>Открывает.</p>
+<p>Аккаунт даже не верифицирован. Хормози на неё за это наорал. Это твой главный источник дохода, и ты жалеешь $5 в месяц на галочку?</p>
+<p>А потом он посмотрел на цифры. И замолчал.</p>
+
+<div class="stats">
+  <div class="stat"><b>5 800</b><span>подписчиков</span></div>
+  <div class="stat"><b>19</b><span>лайков на пост и примерно 1 комментарий</span></div>
+  <div class="stat"><b>2 800</b><span>охват всего аккаунта за месяц</span></div>
+</div>
+
+<p>Для сравнения, у самого Хормози около 20 миллионов в месяц.</p>
+<p>Окей, а сколько она с этого зарабатывает?</p>
+<p class="big">Чуть меньше миллиона долларов в год. Чистыми.</p>
+
+<div class="chat"><div class="bubble"><small>Ты</small>Ну, наверное, она льёт рекламу</div></div>
+<p>Нет. Все её клиенты приходят из обычного Instagram. Ни рекламы, ни коллабораций с блогерами.</p>
+
+<h3>Кто она такая</h3>
+<p>Дипломированный диетолог. Но про питание она не говорит вообще.</p>
+<p>Вот вообще.</p>
+<p>Она учит <span class="mk">других диетологов правильно выставлять счета страховым компаниям</span>. По словам Хормози, её система в среднем добавляет диетологу около $100 000 дохода в год.</p>
+<p>Вдумайся, насколько это узко. Не «помогаю людям питаться правильно». Не «эксперт по здоровью».</p>
+<p>Одна проблема одного человека, которая стоит ему денег.</p>
+<p>Хормози сам говорит, что уже нишевее и не придумаешь.</p>
+
+<figure class="meme"><img src="img/meme_expect.jpg" alt="Ожидание и реальность" loading="lazy"><figcaption>ожидание и реальность</figcaption></figure>
+
+<span class="label">Часть 02 · <i>Разбор</i></span>
+<h2>Как устроена её <span class="mk">воронка</span></h2>
+
+<p>Теперь самое интересное. Как с такого маленького охвата получается почти миллион.</p>
+<p>Я разложил её бизнес на ступеньки. Наверху много людей и всё бесплатно. Внизу мало людей и большой чек.</p>
+
+<div class="diagram"><svg viewBox="0 0 460 516" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="воронка диетолога · читай сверху вниз"><text x="230.0" y="20" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#8C7F6C">воронка диетолога · читай сверху вниз</text><line x1="4.0" y1="34" x2="19.428571428571416" y2="88" stroke="#1C1712" stroke-width="1.6"/><line x1="456.0" y1="34" x2="440.57142857142856" y2="88" stroke="#1C1712" stroke-width="1.6"/><line x1="4.0" y1="34" x2="456.0" y2="34" stroke="#1C1712" stroke-width="1.6"/><line x1="19.428571428571416" y1="88" x2="440.57142857142856" y2="88" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="58" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Видят её посты</text><text x="230.0" y="80" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">2 800 человек в месяц</text><line x1="19.428571428571416" y1="88" x2="34.85714285714286" y2="142" stroke="#1C1712" stroke-width="1.6"/><line x1="440.57142857142856" y1="88" x2="425.1428571428571" y2="142" stroke="#1C1712" stroke-width="1.6"/><line x1="34.85714285714286" y1="142" x2="425.1428571428571" y2="142" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="112" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Читают ответы на свои вопросы</text><text x="230.0" y="134" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">1 пост и 1 сторис в день</text><line x1="34.85714285714286" y1="142" x2="50.28571428571428" y2="196" stroke="#1C1712" stroke-width="1.6"/><line x1="425.1428571428571" y1="142" x2="409.7142857142857" y2="196" stroke="#1C1712" stroke-width="1.6"/><line x1="50.28571428571428" y1="196" x2="409.7142857142857" y2="196" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="166" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Жмут ссылку в шапке</text><text x="230.0" y="188" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">она в каждом втором посте</text><line x1="50.28571428571428" y1="196" x2="65.71428571428572" y2="250" stroke="#1C1712" stroke-width="1.6"/><line x1="409.7142857142857" y1="196" x2="394.2857142857143" y2="250" stroke="#1C1712" stroke-width="1.6"/><line x1="65.71428571428572" y1="250" x2="394.2857142857143" y2="250" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="220" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Попадают в её базу</text><text x="230.0" y="242" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">2 900 человек</text><line x1="65.71428571428572" y1="250" x2="81.14285714285714" y2="304" stroke="#1C1712" stroke-width="1.6"/><line x1="394.2857142857143" y1="250" x2="378.8571428571429" y2="304" stroke="#1C1712" stroke-width="1.6"/><line x1="81.14285714285714" y1="304" x2="378.8571428571429" y2="304" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="274" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Читают её письма</text><text x="230.0" y="296" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">продаёт только письмами</text><line x1="81.14285714285714" y1="304" x2="96.57142857142856" y2="358" stroke="#1C1712" stroke-width="1.6"/><line x1="378.8571428571429" y1="304" x2="363.42857142857144" y2="358" stroke="#1C1712" stroke-width="1.6"/><line x1="96.57142857142856" y1="358" x2="363.42857142857144" y2="358" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="328" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Покупают шпаргалку</text><text x="230.0" y="350" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">больше 10 в день</text><line x1="96.57142857142856" y1="358" x2="112.0" y2="412" stroke="#1C1712" stroke-width="1.6"/><line x1="363.42857142857144" y1="358" x2="348.0" y2="412" stroke="#1C1712" stroke-width="1.6"/><line x1="112.0" y1="412" x2="348.0" y2="412" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="382" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Берут программу</text><text x="230.0" y="404" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#E5622A">3 в неделю, $4 000+</text><path d="M230.0 416 q-0.2 14 0 24 M223.0 432 L230.0 441 L237.0 432" fill="none" stroke="#1C1712" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="230.0" y="470" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="27" fill="#E5622A">итого почти $1 000 000 в год</text><path d="M80.0 480 q75 5.2 150 1.2 t150 -0.1" fill="none" stroke="#E5622A" stroke-width="2.6" stroke-linecap="round" opacity=".8"/></svg></div>
+
+<p>Пройдём по каждой ступеньке. Будет немного обидно, потому что всё слишком просто.</p>
+
+<h3>Где её видят</h3>
+<p>Один пост и одна сторис в день. Всё.</p>
+<p>Она этим ещё и гордится. Хормози говорит, что это одновременно мило и безумно.</p>
+<p>Темы она не придумывает. Подписчики задают вопросы, она отвечает постами.</p>
+<p>И все посты про одно. Про счета для страховых.</p>
+<p>Никаких трендов. Никаких танцев. Никаких «5 привычек успешных людей».</p>
+<p>Хормози тут показывает свою ленту в Instagram. Там философия, комедия и оборудование для зала. И ему постоянно подсовывают маленьких комиков на 5 000 подписчиков и производителей тренажёров, у которых по 500 или 2 000 подписчиков.</p>
+<p>Потому что алгоритм знает, что ему это интересно.</p>
+<p>Вот и с тобой так же. <span class="mk">Тебя покажут тем, кому интересна твоя тема.</span> Даже если ты маленький.</p>
+
+<h3>Где ей начинают верить</h3>
+<p>Примерно в каждом втором посте у неё одна и та же фраза. «Кстати, по ссылке в шапке есть ещё полезное».</p>
+<p>Человек жмёт и попадает в её базу. Сейчас там около 2 900 человек.</p>
+<p>Это и есть её лид-магнит. Запомни это слово, оно сегодня ещё всплывёт.</p>
+<p>А теперь цифра, от которой я охуел.</p>
+<p>Хормози спросил, когда у неё была первая продажа. Первую продажу на $39 она сделала, когда в базе было <span class="mk">8 человек</span>.</p>
+<p class="big">Восемь.</p>
+<p>Она выходила в эфир, когда там сидели два человека, и выкладывалась так, будто перед ней полный зал.</p>
+<p>Хормози тут вспоминает Майкла Джордана. Того спросили, почему он играет в полную силу в любой проходной матч.</p>
+<p>А он ответил, что на трибуне может сидеть отец, который месяцами копил на билет, чтобы показать сыну Джордана. И это единственный раз, когда они увидят его игру.</p>
+<p>А теперь ты. Представь, что 100 твоих подписчиков стоят перед тобой вживую. Это не цифра в статистике. Это полный зал.</p>
+<p>Всё ещё кажется, что у тебя маленький блог?</p>
+
+<h3>Где у неё покупают</h3>
+<p>Тут вообще смешно.</p>
+<p>Она пишет письма своей базе. И в письмах продаёт две вещи.</p>
+<p>Первая дешёвая. Шпаргалка со всеми кодами для страховых и инструкцией, как их ставить. Её покупают больше 10 раз в день.</p>
+<p>Каждый день.</p>
+<p>Вторая дорогая. Программа за $4 000 или $5 000. Её берут примерно 3 раза в неделю.</p>
+<p>Всё. Две ступеньки. Ни вебинаров, ни марафонов, ни отдела продаж на 20 человек.</p>
+<p>И Хормози говорит, что если она переставит пару очевидных вещей, выйдет на $3 или даже $5 миллионов в год.</p>
+<p>Понятно, да? Ничего гениального. Просто каждая ступенька на месте.</p>
+
+<h3>Хормози сам дважды на этом обжёгся</h3>
+<p>Первый раз. Он годами говорил только про фитнес-клубы, потому что владельцы клубов и были его клиентами. Потом устал и примерно 18 месяцев рассказывал про бизнес вообще.</p>
+<p>Просмотры росли. А органические продажи упали почти до нуля. Полгода они не могли понять почему.</p>
+<p>Второй раз уже недавно. Команда решила поэкспериментировать с темами пошире. Просмотры опять выросли. А заявки и продажи книг упали.</p>
+
+<div class="quote">Подписчики делают тебя знаменитым. Понимание бизнеса делает тебя богатым.</div>
+
+<div class="chat"><div class="bubble"><small>Ты</small>Влад, ну это Америка и миллион долларов. У нас так не работает</div></div>
+<p>Работает. Я это прошёл сам. Только у меня подписчиков было не несколько тысяч, а 140.</p>
+
+<span class="label">Часть 03 · <i>Моя история</i></span>
+<h2>Как я слил всё в поезде и <span class="mk">начал заново с 1 500 ₽</span></h2>
+
+<p>Летом 2024 года я заработал свой первый миллион рублей. Это около $10 000. В крипте.</p>
+<p>Полтора года я каждый день по 6 часов сидел, учился, набивал руку. И вот они на экране.</p>
+<p>Огромная сумма, к которой я был совсем не готов. Настолько не готов, что через полгода от неё не осталось ничего.</p>
+
+<h3>Неделя, за которую я слил последние $3 000</h3>
+<p>Декабрь 2024. Я еду на поезде на день открытых дверей в бизнес-школу. На балансе последние $3 000.</p>
+<p>И за эту неделю я их теряю.</p>
+<p>Спал часа по 3. Ходил по улице как параноик и каждые пару минут обновлял баланс.</p>
+<p class="ticker">Плюс $1.<br>Минус $100.<br>Плюс $200.<br>Минус $400.</p>
+<p>Меня трясло. А когда всё ушло в ноль, я первый раз за неделю нормально уснул. Терять стало нечего.</p>
+<p>Домой ехал на такси с нулём на счету. В наушниках Бах из плейлиста товарища-пианиста. Я в жизни не слушал классику. Сорок минут, и я пришёл в чувство.</p>
+<p>Самым страшным было даже не это. Самым страшным было сказать родителям.</p>
+<p>Три дня я ходил с этим внутри. Потом рассказал всё отцу. Огромный удар по эго. Я реально думал, что меня выгонят из семьи.</p>
+<p>А разговор пошёл на пользу. В конце декабря я был уже не в апатии, а в режиме «так, что-то надо делать».</p>
+
+<h3>Первые 1 500 ₽</h3>
+<p>Я сел и разложил, что вообще умею. Арбитраж трафика, своя сетка каналов, вирусные ролики. Значит, умею приводить людей и хоть как-то на них зарабатывать.</p>
+<p>Купил приватку по арбитражу. Там ничего не было. Вообще.</p>
+<p>И тут мысль. А что если прогнать всё это через свой опыт и упаковать в свой продукт?</p>
+<p>Как продавать, я толком не знал. Незадолго до этого я оставлял заявку на чужой инфопродукт за 100 000 ₽. Послушал созвон и запомнил шаблон. Решил просто повторить.</p>
+<p>Первого человека нашёл в чате на эфире одного эксперта. Хотел 5 000 ₽. У него не было. Сошлись на 1 500 ₽.</p>
+<p>Смешная сумма? Господа, я такое почувствовал...</p>
+<p>Будто <span class="mk">я могу творить свою судьбу</span>. В крипте я жил так, будто надо угадать рынок и от меня ничего не зависит. А тут результат зависел напрямую от меня.</p>
+<p>Потом 10 000 ₽. Потом 20 000 ₽. Это январь 2025, по 5 созвонов в день.</p>
+
+<h3>А могу ли я закрыть на 100 000 ₽?</h3>
+<p>Три попытки продать личную работу за 100 000 ₽. Все три мимо.</p>
+<p>Тогда я взял все деньги, которые были, около 40 000 ₽, и отдал наставнику по продажам. Все.</p>
+<p>Он меня поднатаскал. Следующего человека я закрыл на 50 000 ₽. А через 2 дня он докинул ещё 50 000 ₽.</p>
+<p>Я сидел в ахуе. Не мог представить, что за такое маленькое количество действий можно получать такие деньги.</p>
+
+<div class="quote">Можно приучить мозг делать много работы за мало денег. А можно приучить делать мало работы за много денег.</div>
+
+<p>Базы у меня почти не было. Первых 100 подписчиков я собрал руками, комментингом.</p>
+<p>В первый же месяц продаж было 7 созвонов и 130 000 ₽. А в Telegram-канале 140 подписчиков.</p>
+<p>Дальше с такой маленькой базой я стабильно делал <span class="mk">от $1 000 в месяц</span>.</p>
+<p>Как у диетолога. Маленькая база, а деньги есть.</p>
+
+<div class="quote">Мне не нужно много людей, чтобы много зарабатывать. Мне нужно несколько правильных.</div>
+
+<span class="label">Часть 04 · <i>Грабли</i></span>
+<h2>А потом я наступил на <span class="mk">те же грабли</span>, что и Хормози</h2>
+
+<p>Чтобы закрыть одного или двух человек, мне нужно было по 5 созвонов в день. Нужен был нормальный поток людей. И я пошёл на YouTube.</p>
+<p>И сделал то, что делают почти все.</p>
+<p>Начал снимать как авторы, которых сам смотрел. Психология, визуализация, концентрация.</p>
+<p>Ролики набирали по 5 000 и по 10 000 просмотров. Эго купалось в шоколаде.</p>
+<p class="big">А денег ноль. <span class="ul">Вообще.</span></p>
+<p>Приходили не мои люди. Смотрели, лайкали и уходили.</p>
+<p>Ровно то, что было у Хормози, когда он ушёл в широкие темы. Только у него на миллионы долларов, а у меня на мои нервы.</p>
+<p>А в апреле 2026 блог встал. Заявок нет, старые источники клиентов умерли.</p>
+
+<h3>Что я сделал</h3>
+<p>Вернулся к узким роликам. В каждом одна проблема одного человека.</p>
+<p>Они набирали около 1 000 просмотров. В статистику заходить было грустно.</p>
+<p>Только каждый такой ролик приносил около 5 целевых заявок. И <span class="mk">3 из них я закрывал на высокий чек</span>.</p>
+<p>Вот тогда до меня и дошло. Размер блога вообще не главное. Главное, сколько денег приносит каждый, кто тебя смотрит.</p>
+<p>С апреля блог вырос в 2 раза. А доход с $1 500 до <span class="mk">$11 000 в пике</span>. С того же маленького блога.</p>
+<p>Сейчас все, кто мне платит, приходят только с YouTube.</p>
+<p>Следующая цель стабильные $20 000 в месяц с контента через полгода. Говорю публично, чтобы ты видел путь целиком, а не только красивый финал.</p>
+
+<h3>Почему узко платит больше</h3>
+<p>У всех есть друг, который «шарит во всём». И все знают, что он ни в чём толком не шарит.</p>
+<p>А есть человек, который говорит только про одну вещь. И ты точно знаешь, что в ней он разбирается.</p>
+
+<figure class="meme"><img src="img/meme_chad.jpg" alt="Incel эксперт против Chad эксперта" loading="lazy"><figcaption>про всё сразу или про одну проблему · найди себя</figcaption></figure>
+
+<div class="chat"><div class="bubble"><small>Ты</small>Если я начну узко, меня же никто не увидит</div></div>
+<p>Увидят те, кому надо. Помнишь ленту Хормози с маленькими комиками? Алгоритм показывает узкое тем, кому это интересно.</p>
+<p>Мне не нужно, чтобы меня увидели все. Мне нужно, чтобы меня увидели 3 или 5 человек, которым реально нужна помощь и у которых есть деньги.</p>
+<p>Вот и тебе тоже.</p>
+
+<div class="cta"><p><b>Узнал себя в «просмотры есть, денег нет»?</b> Напиши мне в личку. Посмотрю твой блог и покажу, где теряются заявки.</p><a href="https://t.me/m/LSGPn2syYjFi">Хочу разбор</a></div>
+
+<span class="label">Часть 05 · <i>Две воронки</i></span>
+<h2>Её воронка и моя. <span class="mk">Найди отличия</span></h2>
+
+<p>Теперь кладу рядом свою. Тоже сверху вниз, ступенька к ступеньке.</p>
+
+<div class="diagram"><svg viewBox="0 0 460 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="две воронки рядом · найди отличие"><text x="230.0" y="22" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#8C7F6C">две воронки рядом · найди отличие</text><text x="117" y="56" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="26" fill="#1C1712">у неё</text><text x="343" y="56" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="26" fill="#1C1712">у меня</text><path d="M10.0 70 L22.75 128 M224.0 70 L211.25 128 M22.75 128 L211.25 128" stroke="#1C1712" stroke-width="1.6" fill="none"/><line x1="10.0" y1="70" x2="224.0" y2="70" stroke="#1C1712" stroke-width="1.6"/><text x="117" y="94" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Видят</text><text x="117" y="116" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">2 800 в месяц</text><path d="M236.0 70 L248.75 128 M450.0 70 L437.25 128 M248.75 128 L437.25 128" stroke="#1C1712" stroke-width="1.6" fill="none"/><line x1="236.0" y1="70" x2="450.0" y2="70" stroke="#1C1712" stroke-width="1.6"/><text x="343" y="94" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Видят</text><text x="343" y="116" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">1 000 на ролик</text><polygon points="22.75,128 211.25,128 198.5,186 35.5,186" fill="#FBD3B4" opacity=".7"/><path d="M22.75 128 L35.5 186 M211.25 128 L198.5 186 M35.5 186 L198.5 186" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="117" y="152" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Лид-магнит</text><text x="117" y="174" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">база 2 900</text><polygon points="248.75,128 437.25,128 424.5,186 261.5,186" fill="#FBE3DC" stroke="#C2361D" stroke-width="2" stroke-dasharray="7 5"/><path d="M248.75 128 L261.5 186 M437.25 128 L424.5 186 M261.5 186 L424.5 186" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="343" y="152" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#C2361D">Лид-магнит</text><text x="343" y="174" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#C2361D">пусто</text><path d="M209.25 157.0 L250.75 157.0" stroke="#C2361D" stroke-width="2.2" stroke-dasharray="4 4" fill="none"/><path d="M35.5 186 L48.25 244 M198.5 186 L185.75 244 M48.25 244 L185.75 244" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="117" y="210" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Пишут</text><text x="117" y="232" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">письма базе</text><path d="M261.5 186 L274.25 244 M424.5 186 L411.75 244 M274.25 244 L411.75 244" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="343" y="210" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Пишут</text><text x="343" y="232" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">5 заявок</text><path d="M48.25 244 L61.0 302 M185.75 244 L173.0 302 M61.0 302 L173.0 302" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="117" y="268" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Платят</text><text x="117" y="290" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">10+ в день</text><path d="M274.25 244 L287.0 302 M411.75 244 L399.0 302 M287.0 302 L399.0 302" stroke="#1C1712" stroke-width="1.6" fill="none"/><text x="343" y="268" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="14.5" font-weight="700" fill="#1C1712">Платят</text><text x="343" y="290" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19" fill="#E5622A">3 из 5</text><text x="117" y="342" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="23" fill="#E5622A">≈ $1 млн в год</text><text x="343" y="342" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="23" fill="#E5622A">до $11 000 в мес</text><text x="230.0" y="372" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="21" fill="#C2361D">отличие одно · ступенька посередине</text></svg></div>
+
+<p>Видишь? Сверху у нас обоих мало людей. Никаких миллионов просмотров. Внизу у обоих платят.</p>
+<p>А посередине у неё база. А у меня пусто.</p>
+<p>Ролик есть. Канал есть. Личка есть. Созвоны есть, из 5 заявок 3 оплаты.</p>
+<p class="big">А лид-магнита нет.</p>
+<p>Человек посмотрел ролик, ему интересно. А дальше ему некуда идти. Либо он набирается смелости и сразу пишет мне в личку, либо уходит.</p>
+<p>И уходит почти всегда.</p>
+<p>У диетолога на этом месте «кстати, по ссылке в шапке есть ещё полезное». И база, которой она может написать в любой день.</p>
+<p>У меня на этом месте полтора года была дыра.</p>
+<p>А теперь представь ту же воронку, только с камнем на месте.</p>
+<p>Человек посмотрел ролик, забрал полезное и попал в мою базу. И я могу написать ему завтра, через неделю, через месяц. А не ждать, пока он сам наберётся смелости.</p>
+<p>Одна ступенька. А разница между «посмотрел и ушёл» и «остался со мной».</p>
+
+<h3>Пять камней</h3>
+<p>Если убрать цифры и площадки, у неё и у меня одна и та же цепочка. Пять камней.</p>
+<p>Ниша, площадка, лид-магнит, личка, созвон. Как автомат Калашникова, проще некуда.</p>
+
+<div class="diagram stones"><svg viewBox="0 0 460 132" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="пять камней"><path d="M77.3,72.0 L69.3,80.4 L58.5,84.0 L48.2,89.7 L36.5,88.5 L26.3,82.8 L17.9,75.1 L13.6,64.7 L11.8,54.1 L11.1,42.9 L17.0,33.5 L23.8,25.1 L33.2,19.4 L43.9,17.8 L55.0,17.3 L65.2,21.8 L74.7,28.3 L79.6,38.8 L82.4,49.7 L80.9,61.0 L76.9,71.6 L68.8,79.6 L58.9,84.7" fill="#FBD3B4" stroke="#1C1712" stroke-width="2.4" stroke-linejoin="round"  opacity="1"/><path d="M85.0,51.3 L82.8,63.2 L77.1,73.7 L68.0,81.2 L57.8,86.2 L46.7,88.4 L35.6,86.1 L24.2,83.3 L16.6,74.2 L9.7,64.6 L9.2,52.7 L8.8,40.7 L14.5,30.0 L24.6,23.8 L34.1,17.8 L45.2,13.3 L56.7,16.5 L68.2,20.0 L75.3,29.7 L79.7,40.3 L83.7,51.2 L82.6,63.0 L75.9,72.7" fill="none" stroke="#1C1712" stroke-width="1.3" stroke-linejoin="round"  opacity="0.55"/><g transform="translate(46.0 52) scale(.86) translate(-46.0 -52)"><circle cx="44.8" cy="51.5" r="22" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46.0" cy="52" r="13" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="46.0" cy="52" r="4" fill="#1C1712"/><path d="M50.0 48 L72.0 26 M72.0 26 l-9 1 M72.0 26 l-1 9" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g><text x="46.0" y="118" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#1C1712">ниша</text><path d="M174.0,43.6 L172.5,54.9 L170.3,65.6 L164.1,74.6 L155.8,81.5 L146.4,88.1 L135.1,86.7 L124.0,85.4 L114.6,79.1 L108.2,70.1 L102.1,60.4 L103.4,49.1 L104.3,37.9 L111.8,29.4 L119.5,21.5 L130.0,18.0 L140.9,16.9 L152.6,17.2 L162.2,23.9 L168.2,33.7 L174.4,43.4 L172.8,54.9 L170.9,65.7" fill="#FBD3B4" stroke="#1C1712" stroke-width="2.4" stroke-linejoin="round"  opacity="1"/><path d="M160.9,22.1 L167.4,31.7 L175.3,40.9 L174.2,52.9 L172.3,64.1 L168.3,75.2 L158.8,82.1 L148.4,86.9 L137.2,87.7 L126.2,85.7 L115.3,81.8 L108.2,72.6 L102.0,62.8 L101.3,51.2 L103.0,39.8 L107.1,28.5 L116.8,21.5 L127.2,16.1 L138.8,13.5 L149.9,18.0 L159.8,23.4 L169.8,29.9 L174.7,40.9" fill="none" stroke="#1C1712" stroke-width="1.3" stroke-linejoin="round"  opacity="0.55"/><g transform="translate(138.0 52) scale(.86) translate(-138.0 -52)"><path d="M113.0 35.3 Q113.0 31 119.0 31 L157.0 30.1 Q163.0 31 163.0 37 L163.7 67 Q163.0 73 157.0 73 L119.0 74.2 Q113.0 73 113.0 67 Z" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M132.0 43 L147.0 52 L132.0 61 Z" fill="#1C1712" stroke="#1C1712" stroke-width="2" stroke-linejoin="round"/></g><text x="138.0" y="118" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#1C1712">площадка</text><path d="M242.4,87.5 L230.8,89.4 L219.5,86.8 L209.7,81.4 L202.5,73.0 L197.6,63.4 L192.3,52.9 L196.4,41.9 L199.8,31.1 L208.7,24.1 L217.7,16.9 L229.1,15.7 L240.1,18.2 L249.8,23.3 L259.2,29.7 L262.5,40.6 L265.0,51.1 L264.7,62.3 L260.7,73.1 L252.1,80.9 L241.7,85.2 L231.0,89.5 L220.1,85.5" fill="#FBE3DC" stroke="#C2361D" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="7 6" opacity="1"/><path d="M266.2,55.8 L263.8,67.0 L256.5,75.8 L248.1,83.2 L237.7,87.9 L226.1,89.3 L215.5,84.8 L205.5,79.3 L196.6,71.4 L191.9,60.2 L192.4,48.1 L195.4,36.7 L202.1,27.0 L212.0,21.0 L222.5,17.3 L233.6,16.7 L245.6,16.6 L255.3,23.7 L263.6,32.4 L264.7,44.5 L267.5,55.8 L264.0,67.0 L258.4,77.3" fill="none" stroke="#C2361D" stroke-width="1.3" stroke-linejoin="round" stroke-dasharray="7 6" opacity="0.55"/><g transform="translate(230.0 52) scale(.86) translate(-230.0 -52)"><path d="M212.0 32 L212.0 54 Q212.0 74 230.0 74 Q248.0 74 248.0 54 L248.0 32" fill="none" stroke="#C2361D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M224.0 32 L224.0 54 Q224.0 62 230.0 62 Q236.0 62 236.0 54 L236.0 32" fill="none" stroke="#C2361D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M212.0 40 L224.0 40 M236.0 40 L248.0 40" fill="none" stroke="#C2361D" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g><text x="230.0" y="118" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#C2361D">лид-магнит</text><path d="M306.2,86.3 L298.6,77.3 L290.5,69.7 L285.9,59.2 L284.8,47.6 L288.5,36.6 L295.0,27.1 L303.9,19.7 L314.6,15.2 L326.1,16.8 L337.3,18.7 L347.4,24.5 L354.5,33.7 L357.0,45.0 L358.8,56.3 L355.9,67.5 L348.7,76.5 L339.9,83.8 L329.0,86.9 L317.8,88.1 L306.9,85.1 L298.7,77.4 L290.2,69.9" fill="#FBD3B4" stroke="#1C1712" stroke-width="2.4" stroke-linejoin="round"  opacity="1"/><path d="M360.5,50.3 L358.7,62.1 L352.7,72.3 L345.7,81.7 L335.2,87.1 L323.7,88.9 L311.8,89.0 L302.4,81.8 L292.2,75.8 L288.8,64.5 L284.5,53.8 L286.2,42.2 L291.7,32.1 L298.3,22.4 L308.8,17.2 L320.2,14.4 L332.2,14.7 L341.9,21.6 L349.6,29.8 L356.1,39.1 L359.8,50.2 L356.9,61.5 L352.1,71.7" fill="none" stroke="#1C1712" stroke-width="1.3" stroke-linejoin="round"  opacity="0.55"/><g transform="translate(322.0 52) scale(.86) translate(-322.0 -52)"><path d="M298.0 38 Q298.0 31 305.0 31 L339.0 32.1 Q346.0 31 346.0 38 L346.0 58 Q346.0 65 339.0 65 L316.0 65 L306.0 75 L308.0 65 Q298.0 65 298.0 58 Z" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M310.0 46 L334.0 46 M310.0 55 L327.0 55" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g><text x="322.0" y="118" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#1C1712">личка</text><path d="M394.8,21.8 L404.6,15.8 L416.1,16.7 L427.4,17.9 L436.2,25.0 L444.1,32.8 L449.9,42.7 L451.4,54.2 L448.8,65.6 L441.5,74.6 L433.6,82.6 L422.9,86.2 L412.0,86.6 L400.9,85.5 L390.4,80.8 L382.6,72.1 L378.4,61.3 L376.4,49.8 L381.2,39.2 L387.1,30.0 L394.6,21.9 L405.1,18.0 L416.0,17.1" fill="#FBD3B4" stroke="#1C1712" stroke-width="2.4" stroke-linejoin="round"  opacity="1"/><path d="M381.7,71.4 L377.8,60.4 L377.6,48.9 L378.6,37.0 L384.6,26.5 L394.9,20.3 L405.9,17.3 L417.0,16.6 L429.0,16.5 L437.3,25.1 L446.5,32.4 L450.5,43.5 L450.4,55.1 L449.3,66.8 L440.8,75.2 L432.6,82.7 L422.4,88.1 L411.0,87.4 L399.1,87.4 L390.3,79.5 L383.3,70.6 L379.4,60.1 L376.5,48.9" fill="none" stroke="#1C1712" stroke-width="1.3" stroke-linejoin="round"  opacity="0.55"/><g transform="translate(414.0 52) scale(.86) translate(-414.0 -52)"><path d="M400.0 30 Q394.0 30 394.0 37 Q396.0 58 412.0 70 Q424.0 77 432.0 72 L434.0 64 L424.0 56 L417.0 61 Q408.0 55 404.0 46 L409.0 40 L405.0 30 Z" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M420.0 36 Q428.0 38 430.0 46 M422.0 28 Q436.0 31 438.0 44" fill="none" stroke="#1C1712" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g><text x="414.0" y="118" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#1C1712">созвон</text></svg></div>
+
+<p>Собраны все пять, и всё щёлкает. Нет одного, и не щёлкает ничего. Как в той самой перчатке, ты понял)</p>
+
+<h3>Мой пятый камень</h3>
+<p>Скажу честно. Лид-магнита у меня полтора года не было. Каждый раз думал, какой записать, и откладывал.</p>
+<p>Так что разбор, который ты сейчас читаешь, и есть мой пятый камень.</p>
+<p>И короткого контента у меня мало, а значит меньше людей вообще узнаёт, что я есть. Работаю над этим.</p>
+
+<div class="quote">Одна проблема одного человека. Своя база. И разговор, в котором покупают.</div>
+
+<span class="label">Часть 06 · <i>Пустой камень</i></span>
+<h2>Что положить в <span class="mk">пустой камень</span></h2>
+
+<p>Окей, камень пустой. А что туда класть?</p>
+<p>Тут я подсмотрел у Хормози. Он делит лид-магниты на три типа. И под каждый я разобрал воронку человека, у которого это уже работает.</p>
+<p>Правило одно. Лид-магнит решает одну узкую проблему до конца. И сам показывает следующую, которую ты уже решаешь за деньги.</p>
+
+<h3>Тип 1. Покажи проблему</h3>
+<p>Человек сам находит у себя дыру. И понимает, что её надо закрыть.</p>
+<p>Ты сейчас читаешь как раз такой. Дошёл до сюда и уже прикидываешь, какой камень пустой у тебя, да?)</p>
+<p>Для монтажёра это может быть разбор «почему твои ролики бросают на 30 секунде». Для юриста «5 дыр в договоре, из-за которых тебе не заплатят».</p>
+
+<h3>Тип 2. Дай попробовать</h3>
+<p>Нейтан Назарет. Американец, 24 года. Делает больше $200 000 в месяц на Reels и YouTube.</p>
+<figure><a class="fig" href="https://youtu.be/Eb7oaXJXPxE"><img src="img/nathan.jpg" alt="Нейтан Назарет"></a><figcaption>Нейтан Назарет, ролик на YouTube</figcaption></figure>
+<p>Под роликами он пишет «напиши слово в комментариях, и я пришлю бесплатное обучение в директ». А на сайте даёт бесплатно попробовать ИИ, который за пару минут собирает магазин на Shopify.</p>
+<p>Человек попробовал, у него что-то получилось. И ему хочется дальше. А дальше уже платно.</p>
+<p>Для дизайнера это может быть «пришли свою обложку, одну переделаю бесплатно». Человек видит разницу на своём же примере.</p>
+
+<h3>Тип 3. Дай один шаг из многих</h3>
+<p>Таки Мур. Австралиец, в коучинге с 2004 года. Делает около $1,7 млн в месяц. Без единого продающего звонка.</p>
+<figure><a class="fig" href="https://youtu.be/v76ecYWa5DM"><img src="img/taki.jpg" alt="Таки Мур"></a><figcaption>Таки Мур, ролик про то, как он продал программу за 48 часов без звонков</figcaption></figure>
+<p>В каждом ролике он рисует от руки одну схему. И отдаёт её одностраничником в PDF. Человек оставляет почту и забирает.</p>
+<p>Одна схема это один шаг. А весь путь целиком внутри его программы Black Belt, около $33 000 за первый год.</p>
+
+<h3>Как пять камней собраны у Таки Мура</h3>
+<p>Вернёмся к Таки. Смотри, как у него стоят все пять. Тот же Калашников, только на миллионы.</p>
+<ol class="list">
+<li><b>Ниша.</b> Он не учит худеть или инвестировать. Он учит бизнес-коучей продавать и масштабироваться. Коуч для коучей</li>
+<li><b>Площадка.</b> YouTube. Ролики почти без монтажа, бывает снимает босиком на лавочке под дождём</li>
+<li><b>Лид-магнит.</b> Тот самый одностраничник из каждого ролика. За него человек оставляет почту</li>
+<li><b>Личка.</b> Письма базе. И каждое письмо ведёт на один документ с его предложением</li>
+<li><b>Созвон.</b> Продающих звонков у него нет совсем, документ продаёт сам. Но даже он говорит, что первых 10 или 20 клиентов надо закрывать созвоном. Чтобы выучить, какими словами клиенты говорят о своей проблеме</li>
+</ol>
+<p>У тебя не будет $1,7 млн в месяц через месяц. Но схема та же самая. И начинается она с того же, с одной проблемы одного человека.</p>
+
+<span class="label">Часть 07 · <i>С нуля</i></span>
+<h2>А если у меня <span class="mk">ещё нет блога</span>?</h2>
+
+<div class="chat"><div class="bubble"><small>Ты</small>Влад, у меня 0 подписчиков. Мне это вообще надо?</div></div>
+<p>Ещё как. Тебе даже проще.</p>
+<p>У тебя нет 10 000 случайных людей, набранных на широких темах. Тебе не надо их переучивать. Ты можешь сразу собирать воронку правильно.</p>
+<p>Смотри, как это было у меня.</p>
+<p>Первых 100 подписчиков я собрал руками, комментингом. Первого клиента нашёл вообще не в своём блоге, а в чате на эфире другого эксперта. И первый месяц продаж сделал при 140 подписчиках.</p>
+<p>То есть деньги появились раньше, чем блог стал большим. <span class="mk">А не наоборот.</span></p>
+<p>Если у тебя есть навык, за который уже платят, начни с двух камней.</p>
+<ol class="list">
+<li><b>Ниша.</b> Одна проблема одного человека, которую ты умеешь решать. Не «я дизайнер», а кому именно и что именно ты делаешь</li>
+<li><b>Личка и созвон.</b> Чтобы поговорить с 10 людьми, у которых эта проблема есть, аудитория не нужна</li>
+</ol>
+<p>Площадку, лид-магнит и регулярный контент добавляешь, когда уже понимаешь, за что люди платят. И тогда твой контент сразу про это, а не про всё подряд.</p>
+
+<div class="quote">Сначала разговор, за который платят. Потом блог, который приводит таких людей.</div>
+
+<span class="label">Часть 08 · <i>Практикум</i></span>
+<h2>Нарисуй <span class="mk">свою воронку</span></h2>
+
+<p>Теперь твоя очередь. Тут три шага минут на 10.</p>
+<p>Сделай сейчас, пока читаешь. Потом не сделаешь, мы оба это знаем)</p>
+
+<h3>Шаг 1. Твоя воронка в одном предложении</h3>
+<div class="fill">Я помогаю <u>&nbsp;</u> решить <u>&nbsp;</u>. Меня находят в <u>&nbsp;</u>, база копится в <u>&nbsp;</u>, а покупают после <u>&nbsp;</u>.</div>
+<p>Не можешь дописать, значит у тебя пока не воронка, а просто посты.</p>
+
+<h3>Шаг 2. Впиши свои цифры</h3>
+<p>Сделай скрин и впиши цифры прямо в телефоне. Или нарисуй на листке, так даже лучше запомнится.</p>
+<p>Если блога ещё нет, пиши как есть. Ноль это тоже цифра)</p>
+
+<div class="diagram yours"><svg viewBox="0 0 460 462" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="твоя воронка · впиши свои цифры"><text x="230.0" y="20" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="20" fill="#8C7F6C">твоя воронка · впиши свои цифры</text><line x1="4.0" y1="34" x2="22.0" y2="88" stroke="#1C1712" stroke-width="1.6"/><line x1="456.0" y1="34" x2="438.0" y2="88" stroke="#1C1712" stroke-width="1.6"/><line x1="4.0" y1="34" x2="456.0" y2="34" stroke="#1C1712" stroke-width="1.6"/><line x1="22.0" y1="88" x2="438.0" y2="88" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="58" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Видят мой контент</text><text x="230.0" y="80" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______ в месяц</text><line x1="22.0" y1="88" x2="40.0" y2="142" stroke="#1C1712" stroke-width="1.6"/><line x1="438.0" y1="88" x2="420.0" y2="142" stroke="#1C1712" stroke-width="1.6"/><line x1="40.0" y1="142" x2="420.0" y2="142" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="112" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Подписываются</text><text x="230.0" y="134" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______</text><line x1="40.0" y1="142" x2="58.0" y2="196" stroke="#1C1712" stroke-width="1.6"/><line x1="420.0" y1="142" x2="402.0" y2="196" stroke="#1C1712" stroke-width="1.6"/><line x1="58.0" y1="196" x2="402.0" y2="196" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="166" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Берут лид-магнит</text><text x="230.0" y="188" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______</text><line x1="58.0" y1="196" x2="76.0" y2="250" stroke="#1C1712" stroke-width="1.6"/><line x1="402.0" y1="196" x2="384.0" y2="250" stroke="#1C1712" stroke-width="1.6"/><line x1="76.0" y1="250" x2="384.0" y2="250" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="220" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Пишут мне в личку</text><text x="230.0" y="242" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______</text><line x1="76.0" y1="250" x2="94.0" y2="304" stroke="#1C1712" stroke-width="1.6"/><line x1="384.0" y1="250" x2="366.0" y2="304" stroke="#1C1712" stroke-width="1.6"/><line x1="94.0" y1="304" x2="366.0" y2="304" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="274" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Доходят до созвона</text><text x="230.0" y="296" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______</text><line x1="94.0" y1="304" x2="112.0" y2="358" stroke="#1C1712" stroke-width="1.6"/><line x1="366.0" y1="304" x2="348.0" y2="358" stroke="#1C1712" stroke-width="1.6"/><line x1="112.0" y1="358" x2="348.0" y2="358" stroke="#1C1712" stroke-width="1.6"/><text x="230.0" y="328" text-anchor="middle" font-family="'Manrope', system-ui, sans-serif" font-size="17" font-weight="700" fill="#1C1712">Платят</text><text x="230.0" y="350" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="19.5" fill="#8C7F6C">______</text><path d="M230.0 362 q0.5 14 0 24 M223.0 378 L230.0 387 L237.0 378" fill="none" stroke="#1C1712" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><text x="230.0" y="416" text-anchor="middle" font-family="'Neucha', 'Comic Sans MS', cursive" font-size="27" fill="#C2361D">итого ______ в месяц</text><path d="M80.0 426 q75 5.8 150 -1.1 t150 -0.6" fill="none" stroke="#E5622A" stroke-width="2.6" stroke-linecap="round" opacity=".8"/></svg></div>
+
+<p>Там, где цифра резко падает или её вообще нет, у тебя и течёт.</p>
+
+<h3>Шаг 3. Проверь пять камней</h3>
+<p>Камень считается, только если ты можешь честно ответить «да».</p>
+<ol class="list">
+<li><b>Ниша.</b> Мой контент про одну проблему одного человека, а не про всё подряд?</li>
+<li><b>Площадка.</b> Я знаю, с какой площадки приходят люди, которые платят, а не просто смотрят?</li>
+<li><b>Лид-магнит.</b> После ролика или поста человеку есть куда пойти и попасть в мою базу, которая не зависит от алгоритма?</li>
+<li><b>Личка.</b> Каждая заявка заканчивается разговором со мной, а не теряется?</li>
+<li><b>Созвон.</b> Я довожу разговор до оплаты, а не кидаю прайс и пропадаю?</li>
+</ol>
+<p>Какой камень остался пустым, с того и начинай. Там ты и теряешь деньги.</p>
+<p>Пустой лид-магнит? Выбери один из трёх типов выше и сделай его за неделю.</p>
+
+<div class="task"><div class="t"><b>Сделай сейчас</b><span class="aura">+1000 aura</span></div>
+<ol class="list">
+<li>Допиши предложение из шага 1</li>
+<li>Впиши цифры в свою воронку и найди ступеньку, где течёт</li>
+<li>Посмотри, откуда пришли последние 5 платящих клиентов. Это твоя главная площадка. Клиентов ещё не было? Выпиши 10 человек, у которых точно есть твоя проблема</li>
+</ol></div>
+
+<h3 class="pb">Три причины, почему воронка так и не собирается</h3>
+<p>Знания у тебя теперь есть. Но знать и сделать это разные вещи.</p>
+<p><b>Первая.</b> Изнутри не видно, где течёт. Кажется, что проблема в просмотрах, а она в пустой ступеньке посередине.</p>
+<p>Я это прошёл на своей шкуре. Три проваленные продажи на 100 000 ₽ подряд, пока не отдал последние 40 000 ₽ наставнику, который увидел то, чего не видел я.</p>
+<p><b>Вторая.</b> Чинят всё сразу. Новый формат, новая площадка, новый продукт. А надо найти один пустой камень и закрыть его.</p>
+<p><b>Третья.</b> Ждут, пока блог станет большим. Ты уже знаешь, что это миф.</p>
+<p>Диетолог зарабатывает столько не потому, что знает какой-то секрет. Секрета нет.</p>
+<p>У неё просто собрана воронка, где каждая ступенька работает.</p>
+
+<div class="end" id="diag">
+  <div class="who"><img src="img/vlad.jpg" alt="Влад Вересов"><div class="k">следующий этап</div></div>
+  <h2>Дальше у тебя два пути</h2>
+  <p>Если ты дочитал до сюда, ты уже не из тех, кто ищет волшебную кнопку.</p>
+  <div class="paths">
+    <div><small>Путь 1</small><b>Сам</b>Сохрани статью. Нарисуй свою воронку, найди пустой камень и закрой его. А потом напиши, что получилось, мне правда интересно.</div>
+    <div class="hot"><small>Путь 2</small><b>Вместе со мной</b>Жми кнопку ниже, откроется моя личка. Допиши, какой камень у тебя пустой, и отправь.</div>
+  </div>
+  <p>Я посмотрю твой блог, ну или твой навык, если блога пока нет.</p>
+  <ul class="list">
+    <li>Найду, где у тебя течёт</li>
+    <li>Нарисуем твою воронку и найдём пустой камень</li>
+    <li>Соберём путь от первого просмотра до оплаты</li>
+  </ul>
+  <p>Если увижу, что помочь не могу, так и скажу. Без продажи ради продажи.</p>
+  <p>И не откладывай. Пока камень пустой, каждый твой ролик уводит людей в никуда. Чем дольше ждёшь, тем больше их уходит.</p>
+  <p class="note">Это для экспертов, у которых уже есть навык и продукт. Есть блог или нет, неважно.</p>
+  <a class="btn" href="https://t.me/m/LSGPn2syYjFi">Написать Владу в личку →</a>
+  <p class="sign">Влад Вересов · VERESOV · @veresovbiz</p>
+</div>
+
+</div>
+</body>
+</html>
