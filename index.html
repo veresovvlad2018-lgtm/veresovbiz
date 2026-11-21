@@ -120,6 +120,23 @@ ym(114382531, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLa
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/114382531" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+<script>
+/* до какой части дочитали: Метрика, Посетители, Параметры визитов */
+document.addEventListener('DOMContentLoaded', function () {
+  var sent = {};
+  function mark(k) { if (sent[k]) return; sent[k] = 1; try { ym(114382531, 'params', {dochital: k}); } catch (e) {} }
+  var els = document.querySelectorAll('.label');
+  if (!('IntersectionObserver' in window)) return;
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) { if (e.isIntersecting) mark(e.target.textContent.replace(/\s+/g, ' ').trim()); });
+  });
+  els.forEach(function (el) { io.observe(el); });
+  window.addEventListener('scroll', function () {
+    var p = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+    [25, 50, 75, 100].forEach(function (s) { if (p >= s / 100 - 0.01) mark(s + '%'); });
+  }, {passive: true});
+});
+</script>
 </head>
 <body>
 <div class="wrap">
@@ -127,8 +144,20 @@ ym(114382531, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLa
 <div class="author"><img class="ava" src="img/vlad.jpg" alt="Влад Вересов"><span>Влад Вересов<br><span class="muted">@veresovbiz</span></span></div>
 
 <h1><span class="mk">$1 000 000 в год</span> с 19 лайками на пост и 5 800 подписчиками</h1>
-<p class="sub">Разбор Хормози, моя воронка от 1 500 ₽ до $11 000 в месяц и практикум, после которого ты увидишь, где твой блог теряет деньги</p>
-<p class="read">Читается за 15 минут, практикум ещё минут на 10. Дочитаешь, и на свой блог посмотришь по-другому</p>
+<p class="sub">Разбор Хормози и моя воронка от 1 500 ₽ до $11 000 в месяц. В конце практикум, где ты найдёшь, где твой блог теряет деньги</p>
+<p class="read">Читается за 15 минут. Здесь её разбор, моя история с цифрами и вся механика</p>
+
+<h3>Всё, что я разберу в этой статье</h3>
+<ul class="list">
+<li>Ужин, на котором Хормози потерял дар речи</li>
+<li>Её воронка по ступенькам. От поста с 19 лайками до программы за $4 000</li>
+<li>Как я слил последние $3 000 в поезде и начал заново с 1 500 ₽</li>
+<li>Грабли, на которые наступили и я, и Хормози</li>
+<li>Её воронка рядом с моей и пять камней, без которых ничего не работает</li>
+<li>Три типа лид-магнитов и пять камней Таки Мура, который делает $1,7 млн в месяц</li>
+<li>Что делать, если блога ещё нет</li>
+<li>Практикум. Рисуешь свою воронку и находишь камень, которого не хватает тебе</li>
+</ul>
 
 <p class="big">Миллион долларов в год.</p>
 <p>С аккаунта, который ты бы пролистал не глядя.</p>
@@ -162,18 +191,6 @@ ym(114382531, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLa
   <div class="stat"><b>140</b><span>подписчиков у меня полтора года назад и уже от $1 000 в месяц</span></div>
   <div class="stat"><b>$11 000</b><span>мой доход в пике сейчас, с того же маленького блога</span></div>
 </div>
-
-<h3>Что внутри</h3>
-<ul class="list">
-<li>Ужин, на котором Хормози потерял дар речи</li>
-<li>Её воронка по ступенькам. От поста с 19 лайками до программы за $4 000</li>
-<li>Как я слил последние $3 000 в поезде и начал заново с 1 500 ₽</li>
-<li>Грабли, на которые наступили и я, и Хормози</li>
-<li>Её воронка рядом с моей и пять камней, без которых ничего не работает</li>
-<li>Три типа лид-магнитов и пять камней Таки Мура, который делает $1,7 млн в месяц</li>
-<li>Что делать, если блога ещё нет</li>
-<li>Практикум. Рисуешь свою воронку и находишь камень, которого не хватает тебе</li>
-</ul>
 
 <p>Все схемы я нарисовал, чтобы ты мог сразу повторить у себя. А в конце бонус, как собрать это с нуля, если блога пока нет.</p>
 <p>Газуем.</p>
